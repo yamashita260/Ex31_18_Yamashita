@@ -13,7 +13,7 @@ namespace Ex31_hint
             if (destination.Animal)
             {
                 Console.WriteLine($"{destination.name}は痛そうだ!");
-                Console.WriteLine($"{destination.name}は毒に侵された!");
+                Console.WriteLine($"{destination.name}は泣き面に蜂!!!");
                 destination.hp -= destination.hp;
                 Console.WriteLine($"{destination.name}の残りHP{destination.hp}");
                 if (destination.hp <= 0)
